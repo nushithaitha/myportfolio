@@ -1,0 +1,546 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Nushith Aitha Portfolio</title>
+
+  <!-- Favicon for the tab icon -->
+  <link rel="icon" href="./assets/images/logo1.png" type="image/png" sizes="32x32">
+
+  <!-- CSS and Fonts -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <!-- Loader -->
+<div id="loader">
+  <div class="spinner"></div>
+</div>
+
+  <main>
+    <aside class="sidebar" data-sidebar>
+      <div class="sidebar-info">
+        <figure class="avatar-box">
+          <img src="./assets/images/my-avatar.jpg" alt="nushith_aitha" width="110">
+        </figure>
+        <div class="info-content">
+          <h1 class="name" title="nushithaitha">Nushith Aitha</h1>
+          <p class="title">UnderGrad @ Anurag University</p>
+        </div>
+        <button class="info_more-btn" data-sidebar-btn>
+          <span>Show Contacts</span>
+          <ion-icon name="chevron-down"></ion-icon>
+        </button>
+      </div>
+      <div class="sidebar-info_more">
+        <div class="separator"></div>
+        <ul class="contacts-list">
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="mail-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Email</p>
+              <a href="mailto:aithanushith@gmail.com" class="contact-link">aithanushith@gmail.com</a>
+            </div>
+          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="phone-portrait-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Phone</p>
+              <a href="tel:+918978737033" class="contact-link">+91 8978737033</a>
+            </div>
+          </li>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="calendar-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">D.O.B</p>
+              <time datetime="1982-06-23">September 10, 2005</time>
+            </div>
+          </li>
+            <li class="contact-item">
+              <div class="icon-box">
+                <ion-icon name="location-outline"></ion-icon>
+              </div>
+              <div class="contact-info">
+                <p class="contact-title">Location</p>
+              <address>Hyderabad, Telangana, India</address>
+            </div>
+          </li>
+        </ul>
+        <div class="separator"></div>
+        <ul class="social-list">
+          <li class="social-item">
+            <a href="https://Linkedin.com/in/nushithaitha" class="social-link">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://github.com/nushithaitha" class="social-link">
+              <ion-icon name="logo-github"></ion-icon>
+            </a>
+          </li>
+          <li class="social-item">
+            <a href="https://medium.com/@aithanushith/air-canvas-ai-enhanced-interactive-drawing-aero-draw-bcaa0e007c23" class="social-link">
+              <ion-icon name="logo-medium"></ion-icon>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </aside>
+    <div class="main-content">
+
+      <nav class="navbar">
+        <ul class="navbar-list">
+          <li class="navbar-item">
+            <button class="navbar-link  active" data-nav-link data-target="about">About</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target="resume">Resume</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target = "project">Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target="Contact">Contact</button>
+          </li>
+        </ul>
+      </nav>
+
+      <article class="about  active" data-page="about">
+        <header>
+          <h2 class="h2 article-title">About me</h2>
+        </header>
+        <section class="about-text">
+        <p>
+            I'm a Computer Science student and a passionate Full-Stack Developer from Hyderabad, India, with a strong interest in AI/ML and creative user experiences. I enjoy transforming real-world problems into intuitive, intelligent, and impactful digital solutions.
+        </p>
+        <p>
+            My focus is on building web and mobile applications that are not only functional and scalable but also engaging and user-centered. From designing clean interfaces to writing efficient backend logic, I take care of the full development lifecycle. I bring a personal touch to every project and ensure the final product reflects both usability and innovation. I've worked on AI-powered healthcare tools, business analytics apps, and interactive UI projects that serve real users and solve meaningful problems.
+        </p>
+      </section>
+
+        <section class="service">
+          <h3 class="h3 service-title">Areas of Work</h3>
+          <ul class="service-list">
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/undraw_developer-avatar_f6ac.svg" alt="design icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Full Stack Developer</h4>
+                <p class="service-item-text">
+                 Skilled in building full-stack web applications with a focus on clean design and functionality.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/undraw_vibe-coding_mjme.svg" alt="Web development icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Web development</h4>
+                <p class="service-item-text">
+                  High-quality development of sites at the professional level.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/ml.svg" alt="mobile app icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">AI/ML</h4>
+                <p class="service-item-text">
+                Building intelligent AI and machine learning solutions that drive real-world impact.
+                Passionate about data-driven innovation and creating accessible, user-friendly applications.
+                </p>
+              </div>
+            </li>
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/undraw_coding_joxb.svg" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Problem Solving</h4>
+                <p class="service-item-text">
+                  Consistently solving diverse problems on LeetCode, GeeksforGeeks, and HackerRank to enhance coding efficiency.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </section>
+        <div class="modal-container" data-modal-container>
+          <div class="overlay" data-overlay></div>
+          <section class="testimonials-modal">
+            <button class="modal-close-btn" data-modal-close-btn>
+              <ion-icon name="close-outline"></ion-icon>
+            </button>
+            <div class="modal-img-wrapper">
+              <figure class="modal-avatar-box">
+                <img src="./assets/images/avatar-1.png" alt="Daniel lewis" width="80" data-modal-img>
+              </figure>
+              <img src="./assets/images/icon-quote.svg" alt="quote icon">
+            </div>
+            <div class="modal-content">
+              <h4 class="h3 modal-title" data-modal-title>Daniel lewis</h4>
+              <time datetime="2021-06-14">14 June, 2021</time>
+          </section>
+        </div>
+        <section class="clients">
+          <h3 class="h3 clients-title">Skills & Technologies</h3>
+  <ul class="clients-list has-scrollbar">
+    <li class="clients-item" title="Java">
+      <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer" aria-label="Java">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" width="60" height="60">
+      </a>
+    </li>
+    <li class="clients-item" title="Python">
+      <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" aria-label="Python">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" width="60" height="60">
+      </a>
+    </li>
+    <li class="clients-item" title="React.js">
+      <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" aria-label="React.js">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js logo" width="60" height="60">
+      </a>
+    </li>
+    <li class="clients-item" title="Spring Framework">
+      <a href="https://spring.io/projects/spring-framework" target="_blank" rel="noopener noreferrer" aria-label="Spring Framework">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Framework logo" width="60" height="60">
+      </a>
+    </li>
+    <li class="clients-item" title="OpenCV">
+  <a href="https://opencv.org/" target="_blank" rel="noopener noreferrer" aria-label="OpenCV">
+    <img src="https://opencv.org/wp-content/uploads/2019/02/opencv-logo-1.png" alt="OpenCV logo" width="60" height="40">
+  </a>
+</li>
+
+<li class="clients-item" title="AWS">
+  <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer" aria-label="Amazon Web Services">
+    <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS logo" width="60">
+  </a>
+</li>
+
+    <li class="clients-item" title="JavaScript">
+      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="JavaScript">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="60" height="60">
+      </a>
+    </li>
+    <li class="clients-item" title="SQL">
+      <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer" aria-label="SQL">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL logo" width="60" height="60">
+      </a>
+    </li>
+    <li class="clients-item" title="Linux">
+      <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer" aria-label="Linux">
+        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux logo" width="60" height="60">
+      </a>
+    </li>
+  </ul>
+        </section>
+      </article>
+<article class="navbar-link" data-page="resume">
+  <header>
+    <h2 class="h2 article-title">Resume</h2>
+  </header>
+  <section class="timeline">
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="book-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Education</h3>
+    </div>
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Anurag University, Hyderabad, India</h4>
+        <span>2022 - Present</span>
+        <p class="timeline-text">
+          Pursuing Bachelor of Technology in Computer Science with a CGPA of 9.26/10.0. Coursework includes Data Structures, Algorithms, Machine Learning, Operating Systems, and Software Engineering.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Abhyaas Junior College, Hyderabad, India</h4>
+        <span>2020 - 2022</span>
+        <p class="timeline-text">
+          Completed Intermediate Education with 96.1% in Mathematics, Physics, and Chemistry.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Shine High School, Warangal, India</h4>
+        <span>2020</span>
+        <p class="timeline-text">My Secondary Education</p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="timeline">
+
+    <div class="title-wrapper">
+      <div class="icon-box">
+        <ion-icon name="briefcase-outline"></ion-icon>
+      </div>
+      <h3 class="h3">Experience</h3>
+    </div>
+
+    <ol class="timeline-list">
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Machine Learning and Data Science Intern - Feynn Labs Services (Remote)</h4>
+        <span>May 2025 - July 2025</span>
+        <p class="timeline-text">
+          Developed ML models for consumer behavior and market trend analysis using Python and SQL. Completed projects involving AI product prototyping and market segmentation.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Summer Intern - Linux World Informatics Pvt. Ltd (Remote)</h4>
+        <span>June 2024 - August 2024</span>
+        <p class="timeline-text">
+          Built Python-based computer vision applications using OpenCV and ML models, including gesture-controlled virtual calculator and interactive drawing tools.
+        </p>
+      </li>
+
+      <li class="timeline-item">
+        <h4 class="h4 timeline-item-title">Web Development and Design Intern - A.N.D Intern (Remote)</h4>
+        <span>December 2023 - January 2024</span>
+        <p class="timeline-text">
+          Created responsive and user-friendly websites using HTML5, CSS3, JavaScript, Spring Framework, and Maven.
+        </p>
+      </li>
+
+    </ol>
+
+  </section>
+
+  <section class="skill">
+
+    <h3 class="h3 skills-title">My Skills</h3>
+
+    <ul class="skills-list content-card">
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Programming Languages (Java, Python, C, JavaScript, SQL)</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Web Technologies (React, Spring Framework, HTML5, CSS3, JSP/Servlets)</h5>
+          <data value="80">80%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 80%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">AI & Machine Learning (OpenCV, Scikit-learn, Data Analysis)</h5>
+          <data value="75">75%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 75%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Cloud & DevOps (AWS, Linux, Git/GitHub)</h5>
+          <data value="70">70%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 70%;"></div>
+        </div>
+      </li>
+
+      <li class="skills-item">
+        <div class="title-wrapper">
+          <h5 class="h5">Core Competencies (DSA, Database Management, Problem Solving)</h5>
+          <data value="85">85%</data>
+        </div>
+        <div class="skill-progress-bg">
+          <div class="skill-progress-fill" style="width: 85%;"></div>
+        </div>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+<article class="navbar-link" data-page="project">
+
+  <header>
+    <h2 class="h2 article-title">Projects</h2>
+  </header>
+
+  <section class="projects">
+
+    <ul class="filter-list">
+      <li class="filter-item"><button data-filter-btn>Full Stack Project</button></li>
+      <li class="filter-item"><button data-filter-btn>Computer Vision</button></li>
+      <li class="filter-item"><button data-filter-btn>Machine Learning & Python</button></li>
+    </ul>
+
+    <ul class="project-list">
+
+      <li class="project-item active" data-filter-item data-category="Full Stack">
+        <a href="https://github.com/nushithaitha/health.git" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/ruralhealth.png" alt="Rural Health Care AI" loading="lazy">
+          </figure>
+          <h3 style="text-align:center"  class="project-title">Rural Health Care AI</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Computer Vision">
+        <a href="https://github.com/nushithaitha/AeroCanvas" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/aircanvas.jpg" alt="Virtual Air Canvas" loading="lazy">
+          </figure>
+          <h3 style="text-align:center" class="project-title">Virtual Air Canvas</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Computer Vision">
+        <a href="#" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/metro.jpg" alt="Metro Ticketing" loading="lazy">
+          </figure>
+          <h3 style="text-align:center"  class="project-title">Metro Ticketing (Facial Recognition)</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Computer Vision">
+        <a href="https://github.com/nushithaitha/PythonVirtualCalculator" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/cal.jpg" alt="Virtual Calculator" loading="lazy">
+          </figure>
+          <h3 style="text-align:center"  class="project-title">Virtual Calculator</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Python">
+        <a href="https://github.com/nushithaitha/PythonMenuBasedProject.git" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/python.jpg" alt="Python Menu" loading="lazy">
+          </figure>
+          <h3 style="text-align:center"  class="project-title">Python Menu Project</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Computer Vision">
+        <a href="https://github.com/nushithaitha/VolumeControllerUsingPython.git" target="_blank">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/sound.jpg" alt="Virtual Volume Controller" loading="lazy">
+          </figure>
+          <h3 style="text-align:center"  class="project-title">Virtual Volume Controller</h3>
+        </a>
+      </li>
+
+      <li class="project-item active" data-filter-item data-category="Machine Learning">
+        <a href="https://github.com/nushithaitha/Stock-Price-Prediction-Using-Machine-Learning.git target="_blank"">
+          <figure class="project-img">
+            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+            <img src="./assets/images/download (3).jpeg" alt="Stock Prediction" loading="lazy">
+          </figure>
+          <h3 style="text-align:center"  class="project-title">Stock Prediction Model</h3>
+        </a>
+      </li>
+
+    </ul>
+
+  </section>
+
+</article>
+
+
+      <article class="navbar-link" data-page="contact">
+
+        <header>
+          <h2 class="h2 article-title">Contact</h2>
+        </header>
+
+        <section class="mapbox" data-mapbox>
+          <figure>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15177.026317450696!2d79.54910369999999!3d18.013292299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334f00225216cb%3A0x5d88513e8c14a52d!2sAitha&#39;s%20Home!5e0!3m2!1sen!2sin!4v1749131690213!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+          </figure>
+        </section>
+
+        <section class="contact-form" id="contact">
+
+  <h3 class="h3 form-title">Contact Form</h3>
+
+  <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+
+    <!-- Web3Forms Access Key -->
+    <input type="hidden" name="access_key" value="82983d45-652e-4145-b3b9-92afabb422b5">
+
+    <!-- Redirect after submission -->
+    <input type="hidden" name="redirect" value="thanks.html">
+
+    <!-- Bot check (anti-spam) -->
+    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+
+    <!-- Name and Email Inputs -->
+    <div class="input-wrapper">
+      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+    </div>
+
+    <!-- Message -->
+    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+
+    <!-- Submit Button -->
+    <button class="form-btn" type="submit" disabled data-form-btn>
+      <ion-icon name="paper-plane"></ion-icon>
+      <span>Send Message</span>
+    </button>
+
+  </form>
+
+</section>
+
+
+      </article>
+
+    </div>
+
+  </main>
+
+  <script src="./assets/js/script.js"></script>
+
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
