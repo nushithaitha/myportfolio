@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
   <title>Nushith Aitha Portfolio</title>
 
   <!-- Favicon for the tab icon -->
@@ -18,12 +18,16 @@
 </head>
 
 <body>
-  <!-- Loader -->
-<div id="loader">
-  <div class="spinner"></div>
+  <!-- Floating dotted background -->
+  <div class="floating-bg"></div>
+    <div class="resume-download-fixed">
+  <a href="https://drive.google.com/file/d/1YUVF_EeHXnZB1c70ZWP1RTsQvVObTGT4/view?usp=sharing" target="_blank" download class="resume-download-btn">
+    <ion-icon name="download-outline"></ion-icon>
+  </a>
 </div>
-
   <main>
+
+    <!--Side Bar-->
     <aside class="sidebar" data-sidebar>
       <div class="sidebar-info">
         <figure class="avatar-box">
@@ -50,9 +54,9 @@
               <a href="mailto:aithanushith@gmail.com" class="contact-link">aithanushith@gmail.com</a>
             </div>
           </li>
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="phone-portrait-outline"></ion-icon>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="phone-portrait-outline"></ion-icon>
             </div>
             <div class="contact-info">
               <p class="contact-title">Phone</p>
@@ -68,12 +72,12 @@
               <time datetime="1982-06-23">September 10, 2005</time>
             </div>
           </li>
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"></ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
+          <li class="contact-item">
+            <div class="icon-box">
+              <ion-icon name="location-outline"></ion-icon>
+            </div>
+            <div class="contact-info">
+              <p class="contact-title">Location</p>
               <address>Hyderabad, Telangana, India</address>
             </div>
           </li>
@@ -81,23 +85,27 @@
         <div class="separator"></div>
         <ul class="social-list">
           <li class="social-item">
-            <a href="https://Linkedin.com/in/nushithaitha" class="social-link">
-            <ion-icon name="logo-linkedin"></ion-icon>
+            <a href="https://Linkedin.com/in/nushithaitha" class="social-link" target="_blank">
+              <ion-icon name="logo-linkedin"></ion-icon>
             </a>
           </li>
           <li class="social-item">
-            <a href="https://github.com/nushithaitha" class="social-link">
+            <a href="https://github.com/nushithaitha" class="social-link" target="_blank">
               <ion-icon name="logo-github"></ion-icon>
             </a>
           </li>
           <li class="social-item">
-            <a href="https://medium.com/@aithanushith/air-canvas-ai-enhanced-interactive-drawing-aero-draw-bcaa0e007c23" class="social-link">
+            <a href="https://medium.com/@aithanushith/air-canvas-ai-enhanced-interactive-drawing-aero-draw-bcaa0e007c23"
+              class="social-link" target="_blank">
               <ion-icon name="logo-medium"></ion-icon>
             </a>
           </li>
         </ul>
       </div>
+
     </aside>
+    <!--Side Bar-->
+
     <div class="main-content">
 
       <nav class="navbar">
@@ -109,7 +117,10 @@
             <button class="navbar-link" data-nav-link data-target="resume">Resume</button>
           </li>
           <li class="navbar-item">
-            <button class="navbar-link" data-nav-link data-target = "project">Projects</button>
+            <button class="navbar-link" data-nav-link data-target="project">Projects</button>
+          </li>
+          <li class="navbar-item">
+            <button class="navbar-link" data-nav-link data-target="Certifications">Certifications</button>
           </li>
           <li class="navbar-item">
             <button class="navbar-link" data-nav-link data-target="Contact">Contact</button>
@@ -122,62 +133,108 @@
           <h2 class="h2 article-title">About me</h2>
         </header>
         <section class="about-text">
-        <p>
-            I'm a Computer Science student and a passionate Full-Stack Developer from Hyderabad, India, with a strong interest in AI/ML and creative user experiences. I enjoy transforming real-world problems into intuitive, intelligent, and impactful digital solutions.
-        </p>
-        <p>
-            My focus is on building web and mobile applications that are not only functional and scalable but also engaging and user-centered. From designing clean interfaces to writing efficient backend logic, I take care of the full development lifecycle. I bring a personal touch to every project and ensure the final product reflects both usability and innovation. I've worked on AI-powered healthcare tools, business analytics apps, and interactive UI projects that serve real users and solve meaningful problems.
-        </p>
-      </section>
+          <p>
+            I am a Computer Science student at Anurag University, Hyderabad (CGPA 9.18/10) with a strong passion for
+            software development and solving real-world challenges through technology. My focus lies in designing and
+            developing scalable, user-centric applications that combine functionality with performance.
 
-        <section class="service">
-          <h3 class="h3 service-title">Areas of Work</h3>
+            I have applied my skills in Java, Python, SQL, React, and Spring Framework across multiple projects —
+            including an AI-powered healthcare prediction system, an EV market analytics dashboard, and several
+            automation and computer vision tools. These experiences strengthened my ability to translate business needs
+            into reliable, maintainable softw </p>
+          <p>
+            I am also a certified Salesforce Agentforce Specialist, expanding my expertise in enterprise-level
+            development and workflow automation. Proficient with AWS, Git, and Linux, I’m comfortable working in
+            collaborative, cloud-based environments.
+
+            I am currently actively seeking software development roles where I can contribute my technical expertise,
+            analytical mindset, and passion for innovation to create impactful digital solutions. </p>
+        </section>
+
+        <section class=" service">
+          <h3 class="h3 service-title">Areas of Intrests</h3>
           <ul class="service-list">
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/undraw_developer-avatar_f6ac.svg" alt="design icon" width="40">
+                <img src="/assets/images/SoftwareDeveloper.webp" alt="design icon" width="40" style="background: ;">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Full Stack Developer</h4>
+                <h4 class="h4 service-item-title">Software Developer / Engineer</h4>
                 <p class="service-item-text">
-                 Skilled in building full-stack web applications with a focus on clean design and functionality.
+                  Applying expertise in Java, Python, and SQL to design, develop, and maintain scalable software
+                  solutions that optimize performance, ensure reliability, and deliver seamless user experiences across
+                  multiple platforms.
                 </p>
               </div>
             </li>
+
             <li class="service-item">
               <div class="service-icon-box">
                 <img src="./assets/images/undraw_vibe-coding_mjme.svg" alt="Web development icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Web development</h4>
+                <h4 class="h4 service-item-title">Frontend Developer</h4>
                 <p class="service-item-text">
-                  High-quality development of sites at the professional level.
+                  Building responsive and visually engaging web applications using React, HTML5, CSS3, and JavaScript to
+                  create accessible, interactive, and performance-driven digital interfaces.
                 </p>
               </div>
             </li>
+
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/ml.svg" alt="mobile app icon" width="40">
+                <img src="./assets/images/MachineLearningEngineer.webp" alt="mobile app icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">AI/ML</h4>
+                <h4 class="h4 service-item-title">Machine Learning Engineer</h4>
                 <p class="service-item-text">
-                Building intelligent AI and machine learning solutions that drive real-world impact.
-                Passionate about data-driven innovation and creating accessible, user-friendly applications.
+                  Utilizing Scikit-learn, Pandas, and OpenCV to develop, train, and deploy machine learning models that
+                  enable automation, extract insights, and drive data-informed business decisions.
                 </p>
               </div>
             </li>
+
             <li class="service-item">
               <div class="service-icon-box">
-                <img src="./assets/images/undraw_coding_joxb.svg" alt="camera icon" width="40">
+                <img src="./assets/images/Cloud Engineer.webp" alt="camera icon" width="40">
               </div>
               <div class="service-content-box">
-                <h4 class="h4 service-item-title">Problem Solving</h4>
+                <h4 class="h4 service-item-title">Cloud & DevOps Engineer</h4>
                 <p class="service-item-text">
-                  Consistently solving diverse problems on LeetCode, GeeksforGeeks, and HackerRank to enhance coding efficiency.
+                  Employing AWS, Git, and Linux to orchestrate cloud deployments, automate CI/CD pipelines, and monitor
+                  system performance for enhanced scalability and efficient software delivery.
                 </p>
               </div>
             </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/Data Analyst.webp" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">Data Analyst</h4>
+                <p class="service-item-text">
+                  Using Python, SQL, and Tableau to clean, analyze, and visualize large datasets, uncovering key trends
+                  and patterns that support data-driven decision-making and business improvement.
+                </p>
+              </div>
+            </li>
+
+            <li class="service-item">
+              <div class="service-icon-box">
+                <img src="./assets/images/CRM.webp" alt="camera icon" width="40">
+              </div>
+              <div class="service-content-box">
+                <h4 class="h4 service-item-title">CRM Automation Engineer</h4>
+                <p class="service-item-text">
+                  Applying my Salesforce Agentforce Specialist certification to develop CRM automation workflows,
+                  integrate scalable components, and streamline operations to enhance customer engagement and
+                  organizational efficiency.
+                </p>
+              </div>
+            </li>
+
+
           </ul>
         </section>
         <div class="modal-container" data-modal-container>
@@ -199,291 +256,643 @@
         </div>
         <section class="clients">
           <h3 class="h3 clients-title">Skills & Technologies</h3>
-  <ul class="clients-list has-scrollbar">
-    <li class="clients-item" title="Java">
-      <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer" aria-label="Java">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo" width="60" height="60">
-      </a>
-    </li>
-    <li class="clients-item" title="Python">
-      <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" aria-label="Python">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python logo" width="60" height="60">
-      </a>
-    </li>
-    <li class="clients-item" title="React.js">
-      <a href="https://reactjs.org/" target="_blank" rel="noopener noreferrer" aria-label="React.js">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React.js logo" width="60" height="60">
-      </a>
-    </li>
-    <li class="clients-item" title="Spring Framework">
-      <a href="https://spring.io/projects/spring-framework" target="_blank" rel="noopener noreferrer" aria-label="Spring Framework">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" alt="Spring Framework logo" width="60" height="60">
-      </a>
-    </li>
-    <li class="clients-item" title="OpenCV">
-  <a href="https://opencv.org/" target="_blank" rel="noopener noreferrer" aria-label="OpenCV">
-    <img src="https://opencv.org/wp-content/uploads/2019/02/opencv-logo-1.png" alt="OpenCV logo" width="60" height="40">
-  </a>
-</li>
+          <ul class="clients-list has-scrollbar">
 
-<li class="clients-item" title="AWS">
-  <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer" aria-label="Amazon Web Services">
-    <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS logo" width="60">
-  </a>
-</li>
+            <!-- Programming Languages -->
+            <li class="clients-item" title="Java">
+              <a href="https://www.oracle.com/java/" target="_blank" rel="noopener noreferrer" aria-label="Java">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java logo"
+                  width="60" height="60">
+              </a>
+            </li>
 
-    <li class="clients-item" title="JavaScript">
-      <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank" rel="noopener noreferrer" aria-label="JavaScript">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript logo" width="60" height="60">
-      </a>
-    </li>
-    <li class="clients-item" title="SQL">
-      <a href="https://en.wikipedia.org/wiki/SQL" target="_blank" rel="noopener noreferrer" aria-label="SQL">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="SQL logo" width="60" height="60">
-      </a>
-    </li>
-    <li class="clients-item" title="Linux">
-      <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer" aria-label="Linux">
-        <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux logo" width="60" height="60">
-      </a>
-    </li>
-  </ul>
+            <li class="clients-item" title="Python">
+              <a href="https://www.python.org/" target="_blank" rel="noopener noreferrer" aria-label="Python">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+                  alt="Python logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="C Language">
+              <a href="https://en.wikipedia.org/wiki/C_(programming_language)" target="_blank" rel="noopener noreferrer"
+                aria-label="C Language">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C logo" width="60"
+                  height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="SQL / MySQL">
+              <a href="https://www.mysql.com/" target="_blank" rel="noopener noreferrer" aria-label="SQL">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL logo"
+                  width="60" height="60">
+              </a>
+            </li>
+
+            <!-- Web Technologies -->
+            <li class="clients-item" title="HTML5 / CSS3">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/Guide/HTML/HTML5" target="_blank"
+                rel="noopener noreferrer" aria-label="HTML5 CSS3">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5 logo"
+                  width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="JavaScript">
+              <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"
+                rel="noopener noreferrer" aria-label="JavaScript">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg"
+                  alt="JavaScript logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="React.js">
+              <a href="https://react.dev/" target="_blank" rel="noopener noreferrer" aria-label="React.js">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+                  alt="React.js logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Bootstrap">
+              <a href="https://getbootstrap.com/" target="_blank" rel="noopener noreferrer" aria-label="Bootstrap">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg"
+                  alt="Bootstrap logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Spring Framework">
+              <a href="https://spring.io/projects/spring-framework" target="_blank" rel="noopener noreferrer"
+                aria-label="Spring Framework">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg"
+                  alt="Spring logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Flask">
+              <a href="https://flask.palletsprojects.com/" target="_blank" rel="noopener noreferrer" aria-label="Flask">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flask/flask-original.svg" alt="Flask logo"
+                  width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="OpenCV">
+              <a href="https://opencv.org/" target="_blank" rel="noopener noreferrer" aria-label="OpenCV">
+                <img src="https://opencv.org/wp-content/uploads/2019/02/opencv-logo-1.png" alt="OpenCV logo" width="60"
+                  height="40">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Tableau">
+              <a href="https://www.tableau.com/" target="_blank" rel="noopener noreferrer" aria-label="Tableau">
+                <img src="https://cdn.worldvectorlogo.com/logos/tableau-software.svg" alt="Tableau logo" width="60"
+                  height="60">
+              </a>
+            </li>
+
+            <!-- Cloud & Tools -->
+            <li class="clients-item" title="AWS">
+              <a href="https://aws.amazon.com/" target="_blank" rel="noopener noreferrer"
+                aria-label="Amazon Web Services">
+                <img src="https://a0.awsstatic.com/libra-css/images/logos/aws_logo_smile_1200x630.png" alt="AWS logo"
+                  width="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Git / GitHub">
+              <a href="https://github.com/" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                  alt="GitHub logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Linux">
+              <a href="https://www.linux.org/" target="_blank" rel="noopener noreferrer" aria-label="Linux">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linux/linux-original.svg" alt="Linux logo"
+                  width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="VS Code">
+              <a href="https://code.visualstudio.com/" target="_blank" rel="noopener noreferrer" aria-label="VS Code">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vscode/vscode-original.svg"
+                  alt="VS Code logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="IntelliJ IDEA">
+              <a href="https://www.jetbrains.com/idea/" target="_blank" rel="noopener noreferrer"
+                aria-label="IntelliJ IDEA">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/intellij/intellij-original.svg"
+                  alt="IntelliJ IDEA logo" width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Jupyter Notebook">
+              <a href="https://jupyter.org/" target="_blank" rel="noopener noreferrer" aria-label="Jupyter Notebook">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jupyter/jupyter-original.svg"
+                  alt="Jupyter logo" width="60" height="60">
+              </a>
+            </li>
+
+            <!-- Design & Misc -->
+            <li class="clients-item" title="Figma">
+              <a href="https://www.figma.com/" target="_blank" rel="noopener noreferrer" aria-label="Figma">
+                <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" alt="Figma logo"
+                  width="60" height="60">
+              </a>
+            </li>
+
+            <li class="clients-item" title="Salesforce (CRM)">
+              <a href="https://www.salesforce.com/" target="_blank" rel="noopener noreferrer" aria-label="Salesforce">
+                <img src="https://cdn.worldvectorlogo.com/logos/salesforce-2.svg" alt="Salesforce logo" width="60"
+                  height="60">
+              </a>
+            </li>
+
+          </ul>
+
         </section>
       </article>
-<article class="navbar-link" data-page="resume">
-  <header>
-    <h2 class="h2 article-title">Resume</h2>
-  </header>
-  <section class="timeline">
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="book-outline"></ion-icon>
-      </div>
-      <h3 class="h3">Education</h3>
-    </div>
-    <ol class="timeline-list">
+      <article class="navbar-link" data-page="resume" class="mar">
+        <header>
+          <h2 class="h2 article-title">Resume</h2>
+        </header>
+        <section class="timeline">
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="book-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Education</h3>
+          </div>
+          <ol class="timeline-list">
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Anurag University, Hyderabad, India</h4>
-        <span>2022 - Present</span>
-        <p class="timeline-text">
-          Pursuing Bachelor of Technology in Computer Science with a CGPA of 9.26/10.0. Coursework includes Data Structures, Algorithms, Machine Learning, Operating Systems, and Software Engineering.
-        </p>
-      </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Anurag University — Hyderabad, India</h4>
+              <span>September 2022 – Present</span>
+              <p class="timeline-text">
+                Anurag University is a leading institution for technology and engineering education, recognized for its
+                research-driven curriculum.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Pursuing <strong>Bachelor of Technology in Computer Science</strong> with a current <strong>CGPA
+                    of 9.18/10</strong>.</li>
+                <li>Coursework includes <strong>Data Structures & Algorithms</strong>, <strong>Machine
+                    Learning</strong>, <strong>Operating Systems</strong>, <strong>Database Management Systems</strong>,
+                  and <strong>Software Engineering</strong>.</li>
+                <li>Actively engaged in academic research and innovation projects, with participation in university
+                  hackathons and technical events.</li>
+              </ul>
+            </li>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Abhyaas Junior College, Hyderabad, India</h4>
-        <span>2020 - 2022</span>
-        <p class="timeline-text">
-          Completed Intermediate Education with 96.1% in Mathematics, Physics, and Chemistry.
-        </p>
-      </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Abhyaas Junior College — Hyderabad, India</h4>
+              <span>June 2020 – March 2022</span>
+              <p class="timeline-text">
+                Abhyaas Junior College is known for its excellence in science and mathematics education, fostering
+                strong analytical and problem-solving foundations.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Completed <strong>Intermediate Education</strong> with <strong>96.1%</strong> in Mathematics,
+                  Physics, and Chemistry.</li>
+                <li>Built a strong conceptual understanding of core scientific and logical reasoning principles through
+                  practical problem-solving.</li>
+              </ul>
+            </li>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Shine High School, Warangal, India</h4>
-        <span>2020</span>
-        <p class="timeline-text">My Secondary Education</p>
-      </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Shine High School — Warangal, India</h4>
+              <span>2019 – 2020</span>
+              <p class="timeline-text">
+                Shine High School emphasizes holistic learning and early leadership development.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Completed <strong>Secondary School Education</strong> with distinction, maintaining academic
+                  excellence throughout the curriculum.</li>
+                <li>Developed early interest in computing, logical thinking, and technology-driven innovation.</li>
+              </ul>
+            </li>
 
-    </ol>
+          </ol>
 
-  </section>
+        </section>
 
-  <section class="timeline">
+        <section class="timeline">
 
-    <div class="title-wrapper">
-      <div class="icon-box">
-        <ion-icon name="briefcase-outline"></ion-icon>
-      </div>
-      <h3 class="h3">Experience</h3>
-    </div>
+          <div class="title-wrapper">
+            <div class="icon-box">
+              <ion-icon name="briefcase-outline"></ion-icon>
+            </div>
+            <h3 class="h3">Experience</h3>
+          </div>
 
-    <ol class="timeline-list">
+          <ol class="timeline-list">
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Machine Learning and Data Science Intern — Feynn Labs Services, India
+                (Remote)</h4>
+              <span>May 2025 – July 2025</span>
+              <p class="timeline-text">
+                Feynn Labs Services is a data analytics firm specializing in AI-driven market segmentation and consumer
+                behavior insights.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Enhanced segmentation accuracy by <strong>25–35%</strong> through data cleaning, preprocessing, and
+                  model tuning using <strong>Python</strong>, <strong>R</strong>, and <strong>SQL</strong>.</li>
+                <li>Developed and deployed <strong>machine learning models</strong> leveraging K-Means, KNN, and PCA for
+                  actionable business insights across 3 client projects.</li>
+                <li>Contributed to <strong>AI product prototyping</strong> and optimized pipelines to improve model
+                  reliability and scalability in production environments.</li>
+              </ul>
+            </li>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Machine Learning and Data Science Intern - Feynn Labs Services (Remote)</h4>
-        <span>May 2025 - July 2025</span>
-        <p class="timeline-text">
-          Developed ML models for consumer behavior and market trend analysis using Python and SQL. Completed projects involving AI product prototyping and market segmentation.
-        </p>
-      </li>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Summer Intern — Linux World Informatics Pvt. Ltd, India (Remote)</h4>
+              <span>June 2024 – August 2024</span>
+              <p class="timeline-text">
+                Linux World Informatics is a global EdTech and IT innovation company focused on AI, automation, and
+                open-source development.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Engineered Python-based <strong>computer vision applications</strong> including a gesture-controlled
+                  calculator and <strong>Aero Canvas</strong> using <strong>OpenCV</strong> and <strong>Gemini
+                    API</strong>.</li>
+                <li>Achieved <strong>90%+ accuracy</strong> in real-time gesture recognition through advanced ML
+                  optimization and algorithm fine-tuning.</li>
+                <li>Delivered <strong>responsive AI-driven web interfaces</strong> integrating front-end design with
+                  real-time ML capabilities for enhanced usability.</li>
+              </ul>
+            </li>
 
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Summer Intern - Linux World Informatics Pvt. Ltd (Remote)</h4>
-        <span>June 2024 - August 2024</span>
-        <p class="timeline-text">
-          Built Python-based computer vision applications using OpenCV and ML models, including gesture-controlled virtual calculator and interactive drawing tools.
-        </p>
-      </li>
-
-      <li class="timeline-item">
-        <h4 class="h4 timeline-item-title">Web Development and Design Intern - A.N.D Intern (Remote)</h4>
-        <span>December 2023 - January 2024</span>
-        <p class="timeline-text">
-          Created responsive and user-friendly websites using HTML5, CSS3, JavaScript, Spring Framework, and Maven.
-        </p>
-      </li>
-
-    </ol>
-
-  </section>
-
-  <section class="skill">
-
-    <h3 class="h3 skills-title">My Skills</h3>
-
-    <ul class="skills-list content-card">
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Programming Languages (Java, Python, C, JavaScript, SQL)</h5>
-          <data value="85">85%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 85%;"></div>
-        </div>
-      </li>
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Web Technologies (React, Spring Framework, HTML5, CSS3, JSP/Servlets)</h5>
-          <data value="80">80%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 80%;"></div>
-        </div>
-      </li>
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">AI & Machine Learning (OpenCV, Scikit-learn, Data Analysis)</h5>
-          <data value="75">75%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 75%;"></div>
-        </div>
-      </li>
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Cloud & DevOps (AWS, Linux, Git/GitHub)</h5>
-          <data value="70">70%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 70%;"></div>
-        </div>
-      </li>
-
-      <li class="skills-item">
-        <div class="title-wrapper">
-          <h5 class="h5">Core Competencies (DSA, Database Management, Problem Solving)</h5>
-          <data value="85">85%</data>
-        </div>
-        <div class="skill-progress-bg">
-          <div class="skill-progress-fill" style="width: 85%;"></div>
-        </div>
-      </li>
-
-    </ul>
-
-  </section>
-
-</article>
-
-<article class="navbar-link" data-page="project">
-
-  <header>
-    <h2 class="h2 article-title">Projects</h2>
-  </header>
-
-  <section class="projects">
-
-    <ul class="filter-list">
-      <li class="filter-item"><button data-filter-btn>Full Stack Project</button></li>
-      <li class="filter-item"><button data-filter-btn>Computer Vision</button></li>
-      <li class="filter-item"><button data-filter-btn>Machine Learning & Python</button></li>
-    </ul>
-
-    <ul class="project-list">
-
-      <li class="project-item active" data-filter-item data-category="Full Stack">
-        <a href="https://github.com/nushithaitha/health.git" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/ruralhealth.png" alt="Rural Health Care AI" loading="lazy">
-          </figure>
-          <h3 style="text-align:center"  class="project-title">Rural Health Care AI</h3>
-        </a>
-      </li>
-
-      <li class="project-item active" data-filter-item data-category="Computer Vision">
-        <a href="https://github.com/nushithaitha/AeroCanvas" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/aircanvas.jpg" alt="Virtual Air Canvas" loading="lazy">
-          </figure>
-          <h3 style="text-align:center" class="project-title">Virtual Air Canvas</h3>
-        </a>
-      </li>
-
-      <li class="project-item active" data-filter-item data-category="Computer Vision">
-        <a href="#" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/metro.jpg" alt="Metro Ticketing" loading="lazy">
-          </figure>
-          <h3 style="text-align:center"  class="project-title">Metro Ticketing (Facial Recognition)</h3>
-        </a>
-      </li>
-
-      <li class="project-item active" data-filter-item data-category="Computer Vision">
-        <a href="https://github.com/nushithaitha/PythonVirtualCalculator" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/cal.jpg" alt="Virtual Calculator" loading="lazy">
-          </figure>
-          <h3 style="text-align:center"  class="project-title">Virtual Calculator</h3>
-        </a>
-      </li>
-
-      <li class="project-item active" data-filter-item data-category="Python">
-        <a href="https://github.com/nushithaitha/PythonMenuBasedProject.git" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/python.jpg" alt="Python Menu" loading="lazy">
-          </figure>
-          <h3 style="text-align:center"  class="project-title">Python Menu Project</h3>
-        </a>
-      </li>
-
-      <li class="project-item active" data-filter-item data-category="Computer Vision">
-        <a href="https://github.com/nushithaitha/VolumeControllerUsingPython.git" target="_blank">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/sound.jpg" alt="Virtual Volume Controller" loading="lazy">
-          </figure>
-          <h3 style="text-align:center"  class="project-title">Virtual Volume Controller</h3>
-        </a>
-      </li>
-
-      <li class="project-item active" data-filter-item data-category="Machine Learning">
-        <a href="https://github.com/nushithaitha/Stock-Price-Prediction-Using-Machine-Learning.git target="_blank"">
-          <figure class="project-img">
-            <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
-            <img src="./assets/images/download (3).jpeg" alt="Stock Prediction" loading="lazy">
-          </figure>
-          <h3 style="text-align:center"  class="project-title">Stock Prediction Model</h3>
-        </a>
-      </li>
-
-    </ul>
-
-  </section>
-
-</article>
+            <li class="timeline-item">
+              <h4 class="h4 timeline-item-title">Web Development and Design Intern — A.N.D Intern, India (Remote)</h4>
+              <span>December 2023 – January 2024</span>
+              <p class="timeline-text">
+                A.N.D Intern is a digital solutions startup specializing in responsive front-end and Spring-based
+                backend applications.
+              </p>
+              <ul class="timeline-bullets">
+                <li>Developed <strong>responsive, full-stack web applications</strong> using <strong>HTML5</strong>,
+                  <strong>CSS3</strong>, <strong>JavaScript</strong>, and <strong>Spring Boot</strong> for client-facing
+                  platforms.
+                </li>
+                <li>Implemented <strong>interactive UI/UX designs</strong> to improve accessibility and performance
+                  across multiple devices.</li>
+                <li>Collaborated with backend teams to integrate services using <strong>Maven</strong> and ensure
+                  efficient deployment and scalability.</li>
+              </ul>
+            </li>
 
 
-      <article class="navbar-link" data-page="contact">
+          </ol>
+
+        </section>
+
+        <section class="skill">
+
+          <h3 class="h3 skills-title">My Skills</h3>
+
+          <ul class="skills-list content-card">
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Programming Languages (Java, Python, C, JavaScript, SQL)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Web Technologies (React, Spring Framework, HTML5, CSS3, JSP/Servlets)</h5>
+                <data value="80">80%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 80%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">AI & Machine Learning (OpenCV, Scikit-learn, Data Analysis)</h5>
+                <data value="75">75%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 75%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Cloud & DevOps (AWS, Linux, Git/GitHub)</h5>
+                <data value="70">70%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 70%;"></div>
+              </div>
+            </li>
+
+            <li class="skills-item">
+              <div class="title-wrapper">
+                <h5 class="h5">Core Competencies (DSA, Database Management, Problem Solving)</h5>
+                <data value="85">85%</data>
+              </div>
+              <div class="skill-progress-bg">
+                <div class="skill-progress-fill" style="width: 85%;"></div>
+              </div>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+      <!-- ================== CERTIFICATIONS ================== -->
+      <article class="navbar-link" data-page="certifications" class="mar">
+
+        <header>
+          <h2 class="h2 article-title">Certifications</h2>
+        </header>
+
+        <section class="cert-section">
+          <ul class="cert-list">
+
+            <!-- Salesforce -->
+            <li class="cert-item active" data-filter-item data-category="Development">
+              <a href="https://www.salesforce.com/" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="ribbon-outline"></ion-icon>
+                  </div>
+                  <img src="https://cdn.worldvectorlogo.com/logos/salesforce-2.svg" alt="Salesforce" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Salesforce Agentforce Specialist</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Certified Salesforce Agentforce Specialist skilled in CRM workflow automation, Lightning App
+                  development, and customer data management.
+                </p>
+              </a>
+            </li>
+
+            <!-- IBM Cloud Computing -->
+            <li class="cert-item active" data-filter-item data-category="Cloud & Data">
+              <a href="https://www.ibm.com/training/cloud" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="cloud-outline"></ion-icon>
+                  </div>
+                  <img src="https://upload.wikimedia.org/wikipedia/commons/5/51/IBM_logo.svg" alt="IBM Cloud"
+                    loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">IBM Cloud Computing Fundamentals</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Completed IBM Cloud course covering virtualization, IaaS, PaaS, and deployment models with hands-on
+                  experience in cloud management.
+                </p>
+              </a>
+            </li>
+
+            <!-- Infosys Springboard Java -->
+            <li class="cert-item active" data-filter-item data-category="Development">
+              <a href="https://infyspringboard.onwingspan.com/web/en/page/home" target="_blank"
+                rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="code-slash-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png"
+                    alt="Infosys Springboard" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Infosys Springboard — Java Programming</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Gained hands-on experience in Java fundamentals, OOP principles, and backend programming as part of
+                  Infosys Springboard curriculum.
+                </p>
+              </a>
+            </li>
+
+            <!-- Great Learning DSA -->
+            <li class="cert-item active" data-filter-item data-category="Development">
+              <a href="https://www.mygreatlearning.com/" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="git-branch-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://d1vwxdpzbgdqj.cloudfront.net/s3-public-images/learning-partners/greatlearning-brand.svg"
+                    alt="Great Learning" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Data Structures & Algorithms — Great Learning</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Completed DSA specialization with focus on time complexity, sorting, searching, and problem-solving
+                  using Java and Python.
+                </p>
+              </a>
+            </li>
+
+            <!-- GUVI Python -->
+            <li class="cert-item active" data-filter-item data-category="AI & Analytics">
+              <a href="https://www.guvi.in/" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="logo-python"></ion-icon>
+                  </div>
+                  <img
+                    src="https://www.guvi.in/assets/BU5KIClQ-logo.webp"
+                    alt="GUVI Python" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Python Programming — GUVI</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Acquired proficiency in Python programming, libraries, and logic building through GUVI’s certified
+                  hands-on learning track.
+                </p>
+              </a>
+            </li>
+
+            <!-- Infosys Big Data -->
+            <li class="cert-item active" data-filter-item data-category="Cloud & Data">
+              <a href="https://infyspringboard.onwingspan.com/" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="analytics-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://infyspringboard.onwingspan.com/web/assets/images/infosysheadstart/app_logos/landing-new.png"
+                    alt="Infosys Big Data" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Infosys Springboard — Big Data Analytics</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Learned Hadoop, Spark, and data pipeline fundamentals, focusing on distributed data processing and
+                  large-scale analytics systems.
+                </p>
+              </a>
+            </li>
+
+            <!-- Cisco Data Visualization -->
+            <li class="cert-item active" data-filter-item data-category="AI & Analytics">
+              <a href="https://www.netacad.com/" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="bar-chart-outline"></ion-icon>
+                  </div>
+                  <img
+                    src="https://learningnetwork.cisco.com/resource/1701841064000/peakLightning/images/Cisco-Logo.svg"
+                    alt="Cisco Networking Academy" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Cisco — Data Visualization with Python</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Explored Python-based visualization using Matplotlib and Seaborn; built interactive dashboards for
+                  data insights and storytelling.
+                </p>
+              </a>
+            </li>
+
+            <!-- Simplilearn Software Development -->
+            <li class="cert-item active" data-filter-item data-category="Development">
+              <a href="https://www.simplilearn.com/" target="_blank" rel="noopener noreferrer">
+                <figure class="cert-img">
+                  <div class="cert-item-icon-box">
+                    <ion-icon name="laptop-outline"></ion-icon>
+                  </div>
+                  <img src="https://www.simplilearn.com/ice9/assets/new_home_skillup_logo_v_1.svgz?dpr=1.0&q=70&w=1100"
+                    alt="Simplilearn" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="cert-title">Simplilearn — Software Development Fundamentals</h3>
+                <p style="text-align:left; color: var(--light-gray); font-size: var(--fs-6);">
+                  Mastered key principles of SDLC, version control, and deployment pipelines using Git, Agile, and CI/CD
+                  fundamentals.
+                </p>
+              </a>
+            </li>
+          </ul>
+          <div class="verify-btn-box">
+            <a href="https://www.credly.com/users/nushithaitha" target="_blank" class="verify-btn">Verify</a>
+          </div>
+        </section>
+
+      </article>
+
+
+      <article class="navbar-link" data-page="project" class="mar">
+
+        <header>
+          <h2 class="h2 article-title">Projects</h2>
+        </header>
+
+        <section class="projects">
+
+
+
+          <ul class="project-list">
+            <li class="project-item active" data-filter-item data-category="Full Stack">
+              <a href="https://github.com/nushithaitha/EV_Market_Segmentation_Analysis_India.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/Market&CustomerSegmentaion.png" alt="Rural Health Care AI" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Market and Customer Segmentation</h3>
+              </a>
+            </li>
+                        <li class="project-item active" data-filter-item data-category="Full Stack">
+              <a href="https://github.com/nushithaitha/Oaksol-Intern-Assignment-OCR.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/OCR - Copy.png" alt="Rural Health Care AI" loading="lazy" style="height: 275px;">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Optical Character Recognition</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Full Stack">
+              <a href="https://github.com/nushithaitha/McDonalds-CaseStudy-Market-Segmentation-Analysis.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/Mcdonalds - Copy.png" alt="Rural Health Care AI" loading="lazy" >
+                </figure>
+                <h3 style="text-align:center" class="project-title">McDonalds CaseStudy Market Segmentation Analysis</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Full Stack">
+              <a href="https://github.com/nushithaitha/health.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/RuralHealthCareAI.png" alt="Rural Health Care AI" loading="lazy"
+                    style="height: 275px;">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Rural Health Care AI</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Computer Vision">
+              <a href="https://github.com/nushithaitha/AeroCanvas" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/VirtualCanvas (1).png" alt="Virtual Air Canvas" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Virtual Air Canvas</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Computer Vision">
+              <a href="#" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/MetroTicketing.png" alt="Metro Ticketing" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Metro Ticketing (Facial Recognition)</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Computer Vision">
+              <a href="https://github.com/nushithaitha/PythonVirtualCalculator" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/VirtualCalculator.png" alt="Virtual Calculator" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Virtual Calculator</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Python">
+              <a href="https://github.com/nushithaitha/PythonMenuBasedProject.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/PythonMenu.png" alt="Python Menu" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Python Menu Project</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Computer Vision">
+              <a href="https://github.com/nushithaitha/VolumeControllerUsingPython.git" target="_blank">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/VolumeController.png" alt="Virtual Volume Controller" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Virtual Volume Controller</h3>
+              </a>
+            </li>
+
+            <li class="project-item active" data-filter-item data-category="Machine Learning">
+              <a href="https://github.com/nushithaitha/Stock-Price-Prediction-Using-Machine-Learning.git target="
+                _blank"">
+                <figure class="project-img">
+                  <div class="project-item-icon-box"><ion-icon name="eye-outline"></ion-icon></div>
+                  <img src="./assets/images/StockPrediction.png" alt="Stock Prediction" loading="lazy">
+                </figure>
+                <h3 style="text-align:center" class="project-title">Stock Prediction Model</h3>
+              </a>
+            </li>
+
+          </ul>
+
+        </section>
+
+      </article>
+
+
+      <article class="navbar-link" data-page="contact" class="mar">
 
         <header>
           <h2 class="h2 article-title">Contact</h2>
@@ -491,43 +900,46 @@
 
         <section class="mapbox" data-mapbox>
           <figure>
-          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15177.026317450696!2d79.54910369999999!3d18.013292299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334f00225216cb%3A0x5d88513e8c14a52d!2sAitha&#39;s%20Home!5e0!3m2!1sen!2sin!4v1749131690213!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> 
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15177.026317450696!2d79.54910369999999!3d18.013292299999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a334f00225216cb%3A0x5d88513e8c14a52d!2sAitha&#39;s%20Home!5e0!3m2!1sen!2sin!4v1749131690213!5m2!1sen!2sin"
+              width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
           </figure>
         </section>
 
         <section class="contact-form" id="contact">
 
-  <h3 class="h3 form-title">Contact Form</h3>
+          <h3 class="h3 form-title">Contact Form</h3>
 
-  <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
+          <form action="https://api.web3forms.com/submit" method="POST" class="form" data-form>
 
-    <!-- Web3Forms Access Key -->
-    <input type="hidden" name="access_key" value="82983d45-652e-4145-b3b9-92afabb422b5">
+            <!-- Web3Forms Access Key -->
+            <input type="hidden" name="access_key" value="82983d45-652e-4145-b3b9-92afabb422b5">
 
-    <!-- Redirect after submission -->
-    <input type="hidden" name="redirect" value="thanks.html">
+            <!-- Redirect after submission -->
+            <input type="hidden" name="redirect" value="thanks.html">
 
-    <!-- Bot check (anti-spam) -->
-    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+            <!-- Bot check (anti-spam) -->
+            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-    <!-- Name and Email Inputs -->
-    <div class="input-wrapper">
-      <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
-      <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
-    </div>
+            <!-- Name and Email Inputs -->
+            <div class="input-wrapper">
+              <input type="text" name="fullname" class="form-input" placeholder="Full name" required data-form-input>
+              <input type="email" name="email" class="form-input" placeholder="Email address" required data-form-input>
+            </div>
 
-    <!-- Message -->
-    <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
+            <!-- Message -->
+            <textarea name="message" class="form-input" placeholder="Your Message" required data-form-input></textarea>
 
-    <!-- Submit Button -->
-    <button class="form-btn" type="submit" disabled data-form-btn>
-      <ion-icon name="paper-plane"></ion-icon>
-      <span>Send Message</span>
-    </button>
+            <!-- Submit Button -->
+            <button class="form-btn" type="submit" disabled data-form-btn>
+              <ion-icon name="paper-plane"></ion-icon>
+              <span>Send Message</span>
+            </button>
 
-  </form>
+          </form>
 
-</section>
+        </section>
 
 
       </article>
